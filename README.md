@@ -1,4 +1,4 @@
-# Nome do Mini Projeto
+# Cartão para o dia das mães
 
 Este mini projeto consiste em criar um cartão virtual animado para o Dia das Mães. O cartão tem duas faces: na frente, uma saudação inicial e convite para abrir a mensagem especial; no verso, uma mensagem personalizada com botão para voltar. O usuário pode alternar entre as faces com animações suaves.
 
