@@ -1,6 +1,6 @@
 # Nome do Mini Projeto
 
-(um parágrafo explicando)
+Este mini projeto consiste em criar um cartão virtual animado para o Dia das Mães. O cartão tem duas faces: na frente, uma saudação inicial e convite para abrir a mensagem especial; no verso, uma mensagem personalizada com botão para voltar. O usuário pode alternar entre as faces com animações suaves.
 
 ## 🤓 Antes de começar
 
@@ -8,22 +8,29 @@
 
 ## 🔨 Requisitos
 
-- Requisito 1
-- Requisito 2
-
+- Criar um componente de cartão com dois lados (frente e verso).
+- Exibir na frente:
+	- Título "Feliz Dia das Mães!"
+	- Imagem da mãe (usar imagem genérica se necessário)
+ 	- Texto de homenagem curta
+  	- Botão "Clique para ver a mensagem" 
+- Ao clicar, o cartão deve virar com animação para mostrar o verso.
 	> 👀 **Dicas:**
-	> - Dica A sobre Req 2.
-	> - Dica B sobre Req 2.
+	> - Use o useState para controlar o estado "virado".
 
-- Requisito 3
-- ...
-
+- No verso, exibir:
+	- Título "Mensagem Especial"
+	- Caixa com mensagem personalizada
+	- Texto de assinatura
+	- Botão "Clique para voltar"
+   
 ## 🔨 Desafio extra para quem quer ir além
 
-(Essa seção é opcional)
+- Permitir personalizar a mensagem com input de texto antes de gerar o cartão.
 
-- Requisito extra 1. 
-- Requisito extra 2.
+- Salvar a imagem da mãe via upload antes de mostrar o cartão.
+
+- Exportar o cartão como imagem.
 
 ## 🎨 Design Sugerido
 
@@ -31,7 +38,7 @@ Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar
 
 ### Figma
 
-🔗 [Link do design]()
+🔗 [Link do design](https://www.figma.com/community/file/1502275097055094748)
 
 ## 👉🏽 Sobre esse mini-projeto
 
@@ -39,13 +46,16 @@ Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar
 
 #### React
 
-- Habilidade 1 do React
-- Habilidade 2
+- Manipulação de estado com useState
+- Condicionais de renderização
 
 #### TailwindCSS
 
-- Habilidade 1 do TailwindCSS
+- Estilização responsiva e utilitária
+- Animações
 
 ### Pré requisitos
 
-(coloque aqui se houver algum)
+- Conhecimento básico de React (JSX, props, state)
+- Familiaridade com TailwindCSS
+- Noções básicas de animação com Framer Motion
