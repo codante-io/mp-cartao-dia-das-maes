@@ -4,7 +4,7 @@ Este mini projeto consiste em criar um cartão virtual animado para o Dia das M�
 
 ## 🤓 Antes de começar
 
-(Coloque aqui algum setup / boilerplate e explicações se houver. Se não houver, essa seção pode ser apagada)
+Este projeto será desenvolvido com React, TailwindCSS e Framer Motion. Certifique-se de ter o ambiente configurado com Node.js e um projeto React iniciado com Tailwind instalado.
 
 ## 🔨 Requisitos
 
